@@ -24,7 +24,7 @@ author:
   # Biographic information
   avatar           : "profile.png"
   name             : "Miri Aoki"
-  pronouns         : "she/her"  
+  # pronouns         : "she/her"  
   bio              : "Short biography for the left-hand sidebar"
   location         : "Japan"
   employer         : "Institute of Developing Economies
