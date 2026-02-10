@@ -10,7 +10,7 @@
 locale      : "en-US"   
 title       : "Miri Aoki"
 name        : &name "Miri Aoki"
-description : &description "Applied microeconomics / political economy; Taiwan politics; labor & gender; policy evaluation."
+description : &description "Political Economy / Development Economics / Taiwanese Economy"
 
 url         : "https://miriaoki2000.github.io"
 baseurl     : "" 
@@ -25,8 +25,7 @@ author:
   avatar: "199042.png"
   name: "Miri Aoki"
   # pronouns: "she/her"
-  bio: "Research Fellow, Institute of Developing Economies (IDE-JETRO) (Oct 1, 2025–present). Research interests: applied microeconomics, political economy, Taiwan politics, labor & gender, policy evaluation."
-  location: "Tokyo, Japan"
+  bio: "Research Fellow, Institute of Developing Economies (IDE-JETRO). "
   employer: "Institute of Developing Economies (IDE-JETRO)"
   uri: "https://www.ide.go.jp/English/Researchers/aoki_miri_en.html"
   email: "Miri_Aoki@ide.go.jp"
