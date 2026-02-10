@@ -9,56 +9,47 @@ redirect_from:
 
 {% include base_path %}
 
+Employment
+======
+* **Oct 2025–present:** Research Fellow, Institute of Developing Economies (IDE-JETRO), Japan
+* **Oct 2022–Aug 2023:** Research Assistant (Economics), National Taiwan University, Taiwan  
+  * Conducted literature reviews, data cleaning, and statistical analysis (Stata / R / Python)  
+  * Supported preparation of academic papers, presentations, and policy briefs  
+  * Managed data collection from official statistical sources and coordinated project timelines  
+  * Organized a two-month machine learning study group at Academia Sinica (~30 participants per session)
+* **Sep 2020–Nov 2021:** Marketing Intern, iKala Interactive Media Inc., Taiwan  
+  * Identified potential B2B clients in Japan and South/Southeast Asia via market research  
+  * Liaised between the Japan sales team and Taiwan HQ (events, outreach, communications)  
+  * Produced digital marketing materials (social media, landing pages, videos)
+
 Education
 ======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+* **Oct 2023–Sep 2025:** Master of International Studies, The University of Tokyo, Japan
+* **Aug 2019–Jul 2023:** Bachelor of Economics, National Taiwan University, Taiwan
+* **Apr 2016–Mar 2019:** Joshigakuin High School, Japan
 
-Work experience
+Research
 ======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+Working paper
+* **Building a National Identity Rooted in Democratic Values Among Political Leaders: Evidence from the Pro-democracy Movement in Taiwan** (with Jun Goto)
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+Work in progress
+* **The effect of international naming and shaming on the fate of domestic political activists: Empirical evidence from Vietnam** (with Yuki Matsuura)
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
+Other projects
+* **Childcare Availability and Maternal Employment in Taiwan** (2023)  
+  * Empirical evaluation of Taiwan’s quasi-public preschool policy (since 2015) and maternal employment  
+  * Supervised by Tzu-Ting Yang (Institute of Economics, Academia Sinica)
+* **Women’s Workload Amidst the COVID-19 Pandemic: A Study from Indonesia** (2023)  
+  * Supervisor: Daniel Suryadarma (Asian Development Bank Institute)
+
+Selected presentations
+======
+* Young JADE Conference
+* ADBI internal seminar (Tokyo)
+
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+* Coding: Python, R, Stata, QGIS
+* Tools: LaTeX, Microsoft Office
+* Languages: Japanese (Native), English, Mandarin Chinese
