@@ -6,10 +6,12 @@ author_profile: true
 ---
 
 ## Research interests
-Applied microeconomics; political economy; Taiwan politics; labor & gender; policy evaluation.
+Political economy in East Asia; democratization and identity; information and political behavior; causal inference and text-as-data.
 
-## Current projects
-- Building a National Identity Rooted in Democratic Values Among Political Leaders (with Jun Goto)
+## Working paper
+- **Building a National Identity Rooted in Democratic Values Among Political Leaders: Evidence from the Pro-democracy Movement in Taiwan**  
+  (with Jun Goto)
 
-## Publications / Talks
-- See [/publications/](/publications/) and [/talks/](/talks/)
+## Work in progress
+- **The effect of international naming and shaming on the fate of domestic political activists: Empirical evidence from Vietnam**  
+  (with Yuki Matsuura, IDE-JETRO)
