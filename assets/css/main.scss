@@ -37,18 +37,6 @@
     "layout/sidebar",
 
     "vendor/font-awesome/fontawesome",
-
-
-   /* Allow long text in the author sidebar to wrap (no truncation) */
-.author__urls-wrapper a,
-.author__urls li,
-.author__content {
-  white-space: normal !important;
-  overflow: visible !important;
-  text-overflow: unset !important;
-}
-
-    "vendor/font-awesome/solid",
     "vendor/font-awesome/brands",
     "vendor/magnific-popup/magnific-popup"
 ;
