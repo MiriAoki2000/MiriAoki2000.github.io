@@ -27,7 +27,7 @@ author:
   # pronouns: "she/her"
   bio: "Research Fellow"
   employer: "IDE-JETRO"
-  url: "https://www.ide.go.jp/English/Researchers/aoki_miri_en.html"
+  uri: "https://www.ide.go.jp/English/Researchers/aoki_miri_en.html"
   email: "Miri_Aoki@ide.go.jp"
 
   # Academic websites
@@ -165,4 +165,12 @@ exclude:
   - .jekyll-assets-cache
   - .sass-cache
   - assets/js/_main._
+
+
+defaults:
+  # assets 配下（css/js/images等）を sitemap に出さない
+  - scope:
+      path: "assets"
+    values:
+      sitemap: false
 
