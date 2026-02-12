@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale      : "en-US"   
-title       : "Miri Aoki"
+title       : ""
 name        : &name "Miri Aoki"
 description : &description "Political Economy / Development Economics / Taiwanese Economy"
 
