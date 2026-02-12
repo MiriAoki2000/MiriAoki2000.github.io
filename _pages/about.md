@@ -1,10 +1,11 @@
 ---
 layout: single
-title: "Miri Aoki"
+title: ""
 permalink: /
 author_profile: true
 ---
 
+# Miri Aoki
 I am a Research Fellow at the Institute of Developing Economies (IDE-JETRO).  
 I am an empirical political economist focusing on **East and Southeast Asia**, studying how information, international pressure, and identity formation shape **political behavior** and **democratic norms**.
 
