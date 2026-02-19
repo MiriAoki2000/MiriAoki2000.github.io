@@ -9,7 +9,7 @@
 # Basic Site Settings
 locale      : "en-US"   
 title       : ""
-#name        : &name "Miri Aoki"
+name        : &name "Miri Aoki"
 description : &description "Political Economy / Development Economics / Taiwanese Economy"
 
 url         : "https://miriaoki2000.github.io"
@@ -24,7 +24,7 @@ google_site_verification : "c16xTi4E1BrqsJt-XgqcOau11c1YvFvVmriQP4sIDGw"
 author:
   # Biographic information
   avatar: "199042.png"
-  name: "Miri Aoki"
+  # name: "Miri Aoki"
   # pronouns: "she/her"
   bio: "Research Fellow"
   employer: "IDE-JETRO"
