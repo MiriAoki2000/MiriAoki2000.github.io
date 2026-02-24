@@ -1,5 +1,5 @@
 ---
-sitemap: false
+sitemap: 
 layout: archive
 title: "CV"
 permalink: /cv/
