@@ -15,7 +15,6 @@ description : &description "Political Economy / Development Economics / Taiwanes
 url         : "https://miriaoki2000.github.io"
 baseurl     : "" 
 repository  : "MiriAoki2000/MiriAoki2000.github.io"
-google_site_verification : "c16xTi4E1BrqsJt-XgqcOau11c1YvFvVmriQP4sIDGw"
 
 
 # Site Author - The following control what appear as part of the author content on the side bar.
@@ -123,11 +122,10 @@ atom_feed:
 
 
 # SEO Related
-google_site_verification :
+google_site_verification : "c16xTi4E1BrqsJt-XgqcOau11c1YvFvVmriQP4sIDGw"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
-
 
 # Social Sharing
 twitter:
