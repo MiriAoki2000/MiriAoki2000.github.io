@@ -1,5 +1,5 @@
 ---
-sitemap: false
+sitemap: 
 layout: single
 title: "Research"
 permalink: /research/
