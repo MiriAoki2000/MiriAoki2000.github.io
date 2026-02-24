@@ -165,9 +165,7 @@ exclude:
   - .sass-cache
   - assets/js/_main._
 
-
 defaults:
-  # assets 配下（css/js/images等）を sitemap に出さない
   - scope:
       path: "assets"
     values:
