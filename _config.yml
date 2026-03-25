@@ -9,9 +9,9 @@ site_theme           : "default"
 # Keep site.title descriptive but NOT your full name.
 # Let the homepage/page title be "Miri Aoki" so the full title becomes:
 # "Miri Aoki | Political Economist | IDE-JETRO"
-title                : "Miri Aoki | Political Economist"
-title_separator      : "|"
-name                 : &name "Miri Aoki"
+title: "Political Economist | IDE-JETRO"
+name: "Miri Aoki"
+title_separator: "|"
 description          : &description "Miri Aoki is a political economist and Research Fellow at IDE-JETRO. Her research focuses on political economy, development economics, Taiwan, and East and Southeast Asia."
 
 url                  : "https://miriaoki2000.github.io"
