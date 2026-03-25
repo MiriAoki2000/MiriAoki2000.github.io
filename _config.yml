@@ -8,8 +8,8 @@
 
 # Basic Site Settings
 locale      : "en-US"   
-title       : "Economist"
-name        : &name "Miri Aoki"
+title       : "Miri Aoki | Economist"
+name        : "Miri Aoki"
 description : &description "Political Economy / Development Economics / Taiwanese Economy"
 
 url         : "https://miriaoki2000.github.io"
