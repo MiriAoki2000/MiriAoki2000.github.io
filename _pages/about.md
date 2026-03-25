@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "Miri Aoki"
+title: "Welcome!"
 permalink: /
 author_profile: true
 ---
