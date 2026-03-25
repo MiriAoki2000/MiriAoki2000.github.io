@@ -1,158 +1,135 @@
 # Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve -l -H localhost`. If you change this file, please restart the 
-# server process.
+# Restart jekyll serve after editing this file.
 
 # Basic Site Settings
-locale      : "en-US"   
-title: "Economist"
-name: "Miri Aoki"
-title_separator: "|"
-description : &description "Political Economy / Development Economics / Taiwanese Economy"
+locale               : "en-US"
+site_theme           : "default"
 
-url         : "https://miriaoki2000.github.io"
-baseurl     : "" 
-repository  : "MiriAoki2000/MiriAoki2000.github.io"
+# Important:
+# Keep site.title descriptive but NOT your full name.
+# Let the homepage/page title be "Miri Aoki" so the full title becomes:
+# "Miri Aoki | Political Economist | IDE-JETRO"
+title                : "Political Economist | IDE-JETRO"
+title_separator      : "|"
+name                 : &name "Miri Aoki"
+description          : &description "Miri Aoki is a political economist and Research Fellow at IDE-JETRO. Her research focuses on political economy, development economics, Taiwan, and East and Southeast Asia."
 
+url                  : "https://miriaoki2000.github.io"
+baseurl              : ""
+repository           : "MiriAoki2000/MiriAoki2000.github.io"
 
-# Site Author - The following control what appear as part of the author content on the side bar.
-#               If a field is blank the icon and link will not appear, otherwise it will be shown.
-#               Additional customization can be done by editing /_includes/author-profile.html
+# Optional visual settings
+teaser               :
+logo                 :
+masthead_title       : "Miri Aoki"
+
+# Site Author
 author:
-  # Biographic information
-  avatar: "199042.png"
-  name: "Miri Aoki"
-  # pronouns: "she/her"
-  bio: "Research Fellow"
-  employer: "IDE-JETRO"
-  uri: "https://www.ide.go.jp/English/Researchers/aoki_miri_en.html"
-  email: "Miri_Aoki@ide.go.jp"
+  avatar             : "199042.png"
+  name               : "Miri Aoki"
+  bio                : "Research Fellow at IDE-JETRO. Political economy, development economics, Taiwan, and East and Southeast Asia."
+  employer           : "Institute of Developing Economies (IDE-JETRO)"
+  uri                : "https://www.ide.go.jp/English/Researchers/aoki_miri_en.html"
+  email              : "Miri_Aoki@ide.go.jp"
 
   # Academic websites
-  # arxiv: # URL - Update with the correct link to your profile
-  # googlescholar: "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-  # impactstory: # URL
-  # orcid: "http://orcid.org/yourorcidurl"
-  # semantic: # URL
-  # pubmed: "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  # researchgate: # URL
-  # scopus: # URL
+  # googlescholar    : "PASTE_YOUR_GOOGLE_SCHOLAR_URL_HERE"
+  # orcid            : "PASTE_YOUR_ORCID_URL_HERE"
+  # semantic         : "PASTE_YOUR_SEMANTIC_SCHOLAR_URL_HERE"
+  # researchgate     : "PASTE_YOUR_RESEARCHGATE_URL_HERE"
+  # scopus           : "PASTE_YOUR_SCOPUS_URL_HERE"
 
   # Repositories and software development
-  # bitbucket: # Username - Update with your username on the site
-  # codepen: # Username
-  # dribbble: # Username
-  github: "MiriAoki2000"
-  # kaggle: # Username
-  # stackoverflow: # User number or user number and name (i.e., use "1" or "1/jeff-atwood")
+  github             : "MiriAoki2000"
 
   # Social media
-  # bluesky: "bsky.app" # Replace this with you Bluesky username
-  # facebook: # Username
-  # flickr: # Username
-  # foursquare: # Username
-  # goodreads: # Username
-  # google_plus: # Username
-  # keybase: # Username
-  # instagram: # Username
-  # lastfm: # Username
-  linkedin: "miri-aoki"
-  # mastodon: # URL
-  # medium: # URL
-  # pinterest: # Username
-  # soundcloud: # Username
-  # steam: # Username
-  # telegram: # URL
-  # tumblr: # Username
-  # twitter: # Username for X / Twitter
-  # vine: # Username
-  # weibo: # Username
-  # wikipedia: # Username
-  # xing: # Username
-  # youtube: # Username
-  # zhihu: # Username
+  linkedin           : "miri-aoki"
 
-# Publication Category - The following the list of publication categories and their headings
+# Publication Category
 publication_category:
-  books: 'Books'
-  manuscripts: 'Journal Articles'
-  conferences: 'Conference Papers'
+  books              : "Books"
+  manuscripts        : "Journal Articles"
+  conferences        : "Conference Papers"
 
 # Site Settings
-teaser                   :  # filename of teaser fallback teaser image placed in /images/, .e.g. "500x300.png"
-breadcrumbs              : false # true, false (default)
-words_per_minute         : 160
-future                   : false
-read_more                : "disabled" # if enabled, adds "Read more" links to excerpts
-talkmap_link             : false      #change to true to add link to talkmap on talks page
+breadcrumbs          : false
+words_per_minute     : 160
+future               : false
+read_more            : "disabled"
+talkmap_link         : false
+
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "custom"
+  provider           :
   disqus:
-    shortname            :
+    shortname        :
   discourse:
-    server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
+    server           :
   facebook:
-    appid                :
-    num_posts            : # 5 (default)
-    colorscheme          : # "light" (default), "dark"
+    appid            :
+    num_posts        :
+    colorscheme      :
+
 staticman:
-  allowedFields          : ['name', 'email', 'url', 'message']
-  branch                 : "gh-pages" # "master", "gh-pages"
-  commitMessage          : "New comment."
-  filename               : comment-{@timestamp}
-  format                 : "yml"
-  moderation             : true
-  path                   : "_data/comments/{options.slug}"
-  requiredFields         : ['name', 'email', 'message']
+  allowedFields      : ['name', 'email', 'url', 'message']
+  branch             : "master"
+  commitMessage      : "New comment."
+  filename           : comment-{@timestamp}
+  format             : "yml"
+  moderation         : true
+  path               : "_data/comments/{options.slug}"
+  requiredFields     : ['name', 'email', 'message']
   transforms:
-    email                : "md5"
+    email            : "md5"
   generatedFields:
     date:
-      type               : "date"
+      type           : "date"
       options:
-        format           : "iso8601" # "iso8601" (default), "timestamp-seconds", "timestamp-milliseconds"
+        format       : "iso8601"
+
 atom_feed:
-  hide                   : false     # change to true to hide the RSS feed in the footer
-  path                   : # blank (default) uses feed.xml
+  hide               : false
+  path               :
 
-
-# SEO Related
+# SEO / verification
 google_site_verification : "c16xTi4E1BrqsJt-XgqcOau11c1YvFvVmriQP4sIDGw"
 bing_site_verification   :
 alexa_site_verification  :
 yandex_site_verification :
 
-# Social Sharing
+# Social sharing
 twitter:
-  username               : &twitter
+  username           :
 facebook:
-  username               :
-  app_id                 :
-  publisher              :
-og_image                 :  # Open Graph/Twitter default site image
-# For specifying social profiles
-# - https://developers.google.com/structured-data/customize/social-profiles
-social:
-  type                   : # Person or Organization (defaults to Person)
-  name                   : # If the user or organization name differs from the site's name
-  links: # An array of links to social media profiles
+  username           :
+  app_id             :
+  publisher          :
 
+# Default social image for sharing cards
+# Set this if you have a good portrait or banner image in /images/
+og_image             : "/images/199042.png"
+
+# Structured data / identity signals
+social:
+  type               : "Person"
+  name               : "Miri Aoki"
+  links:
+    - "https://miriaoki2000.github.io"
+    - "https://github.com/MiriAoki2000"
+    - "https://www.ide.go.jp/English/Researchers/aoki_miri_en.html"
+    - "https://www.linkedin.com/in/miri-aoki/"
 
 # Analytics
 analytics:
-  provider               :  "false" # false (default), "google", "google-universal", "google-analytics-4", "custom"
+  provider           : false
   google:
-    tracking_id          :
-
+    tracking_id      :
 
 # Reading Files
 include:
   - .htaccess
   - _pages
   - files
+
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
@@ -163,6 +140,7 @@ exclude:
   - .sass-cache
   - assets/js/_main._
 
+# Keep assets out of sitemap
 defaults:
   - scope:
       path: "assets"
