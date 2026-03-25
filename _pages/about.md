@@ -6,9 +6,9 @@ author_profile: true
 ---
 ### Miri Aoki
 
-Research Fellow in Political Economy | IDE-JETRO
+Research Fellow in Economics | IDE-JETRO
 
-Miri Aoki is a Research Fellow at the **Institute of Developing Economies (IDE-JETRO)**. She is an empirical political economist studying **political economy**, development economics, Taiwan, and East and Southeast Asia.
+Miri Aoki is a Research Fellow at the **Institute of Developing Economies (IDE-JETRO)**. She is an **empirical economist** studying **political science**, **development economics**, **Taiwanese economy**.
 Her research focuses on how information, international pressure, and identity formation shape political behavior and democratic norms.
 
 
